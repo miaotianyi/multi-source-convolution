@@ -55,6 +55,10 @@ class MSConv2d(nn.Module):
         out_channels : int
             Number of output channels.
 
+        Other Parameters
+        ----------------
+        Other parameters are the same as those in `nn.Conv2d` blocks.
+
         kernel_size
         stride
         padding
